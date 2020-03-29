@@ -30,6 +30,7 @@ class RandomQuotes extends Component {
     const randomColor = this.props.randomColor[Math.floor(Math.random() * 11)];
     return (
       <div className="wrapper" style={{ backgroundColor: randomColor }}>
+        <h1>Onyedika Edewor</h1>
         <div id="quote-box">
           <div className="quote-text">
             <i className="fa fa-quote-left"> </i>
